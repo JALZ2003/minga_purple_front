@@ -1,18 +1,12 @@
-import { useState } from 'react';
-import Banner from './Banner.jsx';
-import Footer from './Footer';
-import Navbar from './Navbar';
-import Carousel from './Carousel.jsx';
+import Main from "./layouts/Main.jsx";
+import Index from "./pages/Index.jsx";
 
 function App() {
 	return (
 		<>
-			<div className='absolute flex flex-col justify-between w-full'>
-				<Banner />
-				<Carousel />
-				<Footer />
-			</div>
-			<Navbar />
+			<Main>
+				<Index />
+			</Main>
 		</>
 	)
 }

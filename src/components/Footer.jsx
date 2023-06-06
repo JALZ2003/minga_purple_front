@@ -1,10 +1,10 @@
-import facebook from './assets/Facebook.svg';
-import twitter from './assets/Twitter.svg';
-import vimeo from './assets/Vimeo.svg';
-import youtube from './assets/Youtube.svg';
-import donate from './assets/donate.svg';
-import logoFooter from './assets/LogoFooter.svg';
-import footerBg from './assets/FooterBg.svg';
+import facebook from '../assets/Facebook.svg';
+import twitter from '../assets/Twitter.svg';
+import vimeo from '../assets/Vimeo.svg';
+import youtube from '../assets/Youtube.svg';
+import donate from '../assets/donate.svg';
+import logoFooter from '../assets/LogoFooter.svg';
+import footerBg from '../assets/FooterBg.svg';
 
 function Footer() {
     return (

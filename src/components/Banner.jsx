@@ -1,19 +1,9 @@
-import logoWeb from './assets/logoWeb.svg';
-import logoMobile from './assets/LogoMobile.svg';
-import menu from './assets/Menu.svg';
 
 function Banner() {
     return (
         <>
-            <div id='ban' className='w-[100%] h-screen lg:h-[646px] bg-[url("./assets/backgroundHome.svg")] bg-no-repeat bg-cover'>
-                <div className='flex flex-col h-screen lg:h-[646px] ml-5 mr-5 mt-5 lg:ml-[5%] lg:mr-[5%]'>
-                    <div className='flex justify-between w-full'>
-                        <button className='w-[55px] h-[55px]'>
-                            <img src={menu} alt="Menu" />
-                        </button>
-                        <img className='w-[40px] h-[48px] inline-block lg:hidden' src={logoMobile} alt="Minga" />
-                        <img className='w-[200px] h-[50px] hidden lg:inline-block' src={logoWeb} alt="Minga" />
-                    </div>
+            <div className='w-[100%] h-screen lg:h-[646px] bg-[url("./assets/backgroundHome.svg")] bg-no-repeat bg-cover'>
+                <div className='flex flex-col h-screen lg:h-[646px] ml-5 mr-5 lg:ml-[5%] lg:mr-[5%]'>
                     <div className='text-center text-white h-full flex flex-col items-center justify-center gap-[30px] lg:items-start'>
                         <h1 className='
 						// mobile
