@@ -1,7 +1,7 @@
-import character from './assets/character.svg';
-import chapter from './assets/chapter.svg';
-import arrowLeft from './assets/arrowLeft.svg';
-import arrowRight from './assets/arrowRight.svg';
+import character from '../assets/character.svg';
+import chapter from '../assets/chapter.svg';
+import arrowLeft from '../assets/arrowLeft.svg';
+import arrowRight from '../assets/arrowRight.svg';
 
 function Carousel() {
     return (
